@@ -95,7 +95,6 @@ class GameService: ObservableObject {
                 }
                 toggleCurrent()
             }
-            print("Got here")
             if possibleMoves.isEmpty {
                 gameOver = true
             }
