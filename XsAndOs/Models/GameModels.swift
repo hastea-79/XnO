@@ -41,7 +41,7 @@ struct Player {
     var isCurrent = false
     var isWinner: Bool {
         for moves in Move.winningMoves {
-            if moves.allSatisfy(moves.contains) {
+            if moves.allSatisfy(self.moves.contains) {
                 return true
             }
         }
