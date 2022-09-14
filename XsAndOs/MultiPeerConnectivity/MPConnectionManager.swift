@@ -58,7 +58,7 @@ class MPConnectionManager: NSObject, ObservableObject {
     }
     
     func startAdvertising() {
-        nearbyServiceAdvertiser.stopAdvertisingPeer()
+        nearbyServiceAdvertiser.startAdvertisingPeer()
     }
     
     func stopAdvertising() {
@@ -140,7 +140,12 @@ extension MPConnectionManager: MCSessionDelegate {
             DispatchQueue.main.async {
                 switch gameMove.action {
                 case .start:
-                    break
+                    guard let playerName = gameMove.playrName else { return }
+                    if self.game?.player1.name == playerName {
+                        self.game?.player1.isCurrent = true
+                    } else {
+                        self.game?.player2.isCurrent = true
+                    }
                 case .move:
                     if let index = gameMove.index {
                         self.game?.makeMove(at: index)

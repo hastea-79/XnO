@@ -12,6 +12,7 @@
 		BB1E20A728CE87AE004A7512 /* GameSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1E20A628CE87AE004A7512 /* GameSquare.swift */; };
 		BB1E20A928CE8956004A7512 /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1E20A828CE8956004A7512 /* SquareView.swift */; };
 		BB45CFC728D240720090BE2B /* MPGameMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB45CFC628D240720090BE2B /* MPGameMove.swift */; };
+		BB45CFC928D252E80090BE2B /* MPPeersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB45CFC828D252E80090BE2B /* MPPeersView.swift */; };
 		BB8678AC28D108E20072C2CA /* YourNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8678AB28D108E20072C2CA /* YourNameView.swift */; };
 		BBFFED7028CD0DC40025EEF5 /* AppEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFFED6F28CD0DC40025EEF5 /* AppEntry.swift */; };
 		BBFFED7228CD0DC40025EEF5 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFFED7128CD0DC40025EEF5 /* StartView.swift */; };
@@ -30,6 +31,7 @@
 		BB1E20A628CE87AE004A7512 /* GameSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSquare.swift; sourceTree = "<group>"; };
 		BB1E20A828CE8956004A7512 /* SquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
 		BB45CFC628D240720090BE2B /* MPGameMove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPGameMove.swift; sourceTree = "<group>"; };
+		BB45CFC828D252E80090BE2B /* MPPeersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPPeersView.swift; sourceTree = "<group>"; };
 		BB8678AB28D108E20072C2CA /* YourNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourNameView.swift; sourceTree = "<group>"; };
 		BBFFED6C28CD0DC40025EEF5 /* XsAndOs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XsAndOs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBFFED6F28CD0DC40025EEF5 /* AppEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntry.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				BB120BFF28D22E3A0076D9DB /* MPConnectionManager.swift */,
 				BB45CFC628D240720090BE2B /* MPGameMove.swift */,
+				BB45CFC828D252E80090BE2B /* MPPeersView.swift */,
 			);
 			path = MultiPeerConnectivity;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				BBFFED7028CD0DC40025EEF5 /* AppEntry.swift in Sources */,
 				BB1E20A528CE80EA004A7512 /* GameService.swift in Sources */,
 				BBFFED8528CD14310025EEF5 /* ViewModifiers.swift in Sources */,
+				BB45CFC928D252E80090BE2B /* MPPeersView.swift in Sources */,
 				BB120C0028D22E3A0076D9DB /* MPConnectionManager.swift in Sources */,
 				BBFFED8828CD15530025EEF5 /* GameView.swift in Sources */,
 				BB1E20A728CE87AE004A7512 /* GameSquare.swift in Sources */,
